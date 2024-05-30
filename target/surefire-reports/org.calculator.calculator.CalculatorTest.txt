@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: org.calculator.calculator.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 7.196 s <<< FAILURE! - in org.calculator.calculator.CalculatorTest
+testMultiplication(org.calculator.calculator.CalculatorTest)  Time elapsed: 2.118 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:63735/devtools/browser/ed00e587-f865-44c0-8726-aca324ebbbfc
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M54CUPG', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.calculator.calculator.CalculatorTest.setUp(CalculatorTest.java:20)
+
+testAddition(org.calculator.calculator.CalculatorTest)  Time elapsed: 1.068 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:63748/devtools/browser/787a7e08-b693-4a9f-830c-ea90b2c2d6d2
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M54CUPG', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.calculator.calculator.CalculatorTest.setUp(CalculatorTest.java:20)
+
+testDivision(org.calculator.calculator.CalculatorTest)  Time elapsed: 1.094 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:63761/devtools/browser/83685a06-7da7-4236-a63f-b9af64ec7c3d
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M54CUPG', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.calculator.calculator.CalculatorTest.setUp(CalculatorTest.java:20)
+
+testSubtraction(org.calculator.calculator.CalculatorTest)  Time elapsed: 2.831 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:63775/devtools/browser/53795d4f-6c90-4c0d-8898-61b4def60b05
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M54CUPG', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.calculator.calculator.CalculatorTest.setUp(CalculatorTest.java:20)
+
